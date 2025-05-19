@@ -41,7 +41,7 @@ class _NewsPageState extends State<NewsPage> {
   Future<void> fetchNews() async {
     try {
       final url =
-          'https://newsapi.org/v2/everything?q=weather&apiKey=153c6c8a18254d4396efe8c0465acf75';
+          'https://newsapi.org/v2/everything?q=weather&apiKey=';
       final response = await http.get(Uri.parse(url));
 
       if (response.statusCode == 200) {

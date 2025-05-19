@@ -14,7 +14,7 @@ class Test extends StatefulWidget {
 class _TestState extends State<Test> {
   String selectedRange = 'daily';
   List<double> historicalData = [];
-  final String apiKey = "e35fba1dbb56b743e3684a6a21891bb0";
+  final String apiKey = "apikey";
   final double lat = 37.7749;
   final double lon = -122.4194;
   bool isLoading = true;

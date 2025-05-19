@@ -13,7 +13,7 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
-  final String apiKey = 'e35fba1dbb56b743e3684a6a21891bb0';
+  final String apiKey = 'apikey';
   double lat = 0.0;
   double lon = 0.0;
 

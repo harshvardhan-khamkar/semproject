@@ -11,7 +11,7 @@ class GetLocation extends StatefulWidget {
 }
 
 class _GetLocationState extends State<GetLocation> {
-  final String apiKey = 'e35fba1dbb56b743e3684a6a21891bb0';
+  final String apiKey = 'apikey';
   String _location = 'Location not determined';
 
   @override
